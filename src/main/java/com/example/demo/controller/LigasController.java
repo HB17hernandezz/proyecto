@@ -35,7 +35,7 @@ public class LigasController {
 		computadora.add(new Computadoras(15654,"HP","Celeron","Windows10",14,4));
 		modelo.addAttribute("Computadoras",computadora);
 		modelo.addAttribute("titulo","Tabla de Computadoras");
-		return "computadoras";
+		return "Computadoras";
 	}
 	
 	@GetMapping("/Tickets")
